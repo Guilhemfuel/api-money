@@ -17,6 +17,15 @@ API_MONEY_PROD=false
 API_MONEY_PARTNER_ID=partnerId
 ```
 
+Javascript library for WebCashIn
+```php
+@if (env('API_MONEY_PROD'))
+    <script src="https://secure-cb.w-ha.com/secure-node-resources/js/secure-cb.min.js"></script>
+@else
+    <script src="https://preprod-cb.w-ha.com/secure-node-resources/js/secure-cb.min.js"></script>
+@endif
+```
+
 ## Exemple
 
 ```php
