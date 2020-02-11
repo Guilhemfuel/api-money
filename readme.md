@@ -5,7 +5,7 @@
 [Doc API Money](https://www.api-money.com/docs/)  
 
 ## Description
-A simple classe to use API Money with CURL because their shitty service doesn't provide any SDK.
+A simple class to use API Money with CURL because their shitty service doesn't provide any SDK.
 
 ## Installation
 ```bash
